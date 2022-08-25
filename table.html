@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Daftar Hadir</title>
+</head>
+<body>
+    <table width = "100%" cellpadding = "10">
+        <tr>
+            <td>
+                <h1>Pengisian Data Siswa SMKN 1 Surabaya</h1>
+            </td>
+            <td align = "right">
+                <a href="form.html"><button>kembali</button>
+                </a>
+            </td>
+        </tr>
+    </table>
+    <p>isikan semua data siswa dengan benar,lalu simpan</p>
+    <form >
+        <table cellpadding = "5">
+            <tr>
+                <td><label for="nama">Nama</label></td>
+                <td><input type="text" name="nama" id="nama"></td>
+            </tr>
+            <tr>
+                <td><label for="KotaLahir">Kota Lahir</label></td>
+                <td>
+                    <select name="KotaLahir" id="KotaLahir">
+
+                        <option value="" selected disabled>Pilih kota</option>
+                        <option value="">Surabaya</option>
+                        <option value="">Bandung</option>
+                        <option value="">Jakarta</option>
+                        <option value="">Jogja</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="tanggallahir">tanggal lahir</label></td>
+                <td><input type="date" ></td>
+            </tr>
+            <tr>
+                <td>Agama</td>
+                <td>
+                 <input type="radio" name="agama">Islam
+                 <input type="radio" name="agama">Katolik
+                 <input type="radio" name="agama">Kristen
+                 <input type="radio" name="agama">Hindu
+                 <input type="radio" name="agama">Kong
+                </td>                
+             </tr>
+             <tr>
+                 <td>Foto</td>
+                 <td><input type="file"></td>
+             </tr>
+             <tr>
+                <td><button>simpan</button></td>
+             </tr>
+        </table>
+    </form>
+</body>
+</html>
